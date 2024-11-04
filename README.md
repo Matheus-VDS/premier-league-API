@@ -14,7 +14,7 @@ Antes de começar, verifique se você tem os seguintes itens instalados:
 
     ```bash
     git clone https://github.com/Matheus-VDS/premier-league-API.git
-    cd seu_repositorio
+    cd premier-league-API
 
 2. Crie e ative um ambiente virtual:
 
