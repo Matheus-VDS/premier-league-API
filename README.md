@@ -14,15 +14,15 @@ Antes de começar, verifique se você tem os seguintes itens instalados:
 1. Clone o repositório:
 
     ```bash
-    git clone https://github.com/seu_usuario/seu_repositorio.git
+    git clone https://github.com/Matheus-VDS/premier-league-API.git
     cd seu_repositorio
 
 2. Crie e ative um ambiente virtual:
 
     python -m venv venv
-    # No Windows:
+    ## No Windows:
     venv\Scripts\activate
-    # No macOS/Linux:
+    ## No macOS/Linux:
     source venv/bin/activate
 
 3. Instale as dependências necessárias:
@@ -32,4 +32,8 @@ Antes de começar, verifique se você tem os seguintes itens instalados:
 4. Execute o arquivo partidas.py para criar o banco de dados
 
     python partidas.py
+
+5. Execute o Streamlit
+
+    streamlit run app.py
 

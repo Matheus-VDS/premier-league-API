@@ -146,7 +146,7 @@ elif choice == "Gráficos de Estatísticas":
             x=list(results.keys()),
             y=list(results.values()),
             labels={'x': 'Resultado', 'y': 'Número de Jogos'},
-            title="Vitórias, Empates e Derrotas",
+            title="Vitórias, Empates",
             color=list(results.keys()),
             color_discrete_sequence=px.colors.sequential.Bluyl  # Cores sequenciais
         )
