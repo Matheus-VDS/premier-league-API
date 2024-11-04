@@ -1,0 +1,9 @@
+-- Obter os times que marcaram mais gols em casa, somando os gols por time
+
+SELECT home_team_id, SUM(home_score) AS total_gols
+
+FROM fixtures
+
+GROUP BY home_team_id
+
+ORDER BY total_gols DESC;

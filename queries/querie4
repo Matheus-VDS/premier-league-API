@@ -1,0 +1,3 @@
+-- Encontrar a média de gols marcados por partida (soma dos gols em casa e fora)
+
+SELECT AVG(home_score + away_score) AS media_gols FROM fixtures;

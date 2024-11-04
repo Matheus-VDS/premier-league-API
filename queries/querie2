@@ -1,0 +1,5 @@
+-- Selecionar partidas de uma determinada equipe
+
+SELECT * FROM fixtures
+
+WHERE home_team_id = '33' OR away_team_id = '33';

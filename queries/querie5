@@ -1,0 +1,2 @@
+-- Obter partidas que terminaram em empateSELECT * FROM fixtures
+WHERE home_score = away_score;

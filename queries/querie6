@@ -1,0 +1,7 @@
+-- Selecionar as últimas 5 partidas realizadas, ordenadas pela data mais recente
+
+SELECT * FROM fixtures
+
+ORDER BY date DESC
+
+LIMIT 5;

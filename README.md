@@ -1,4 +1,4 @@
-# Dashboard de Estatísticas de Futebol
+# Dashboard das partidas do Premier League 2024/2025
 
 Este projeto é um dashboard interativo para visualizar estatísticas de partidas da Premier League usando Streamlit. A aplicação permite que os usuários visualizem diferentes gráficos relacionados a partidas, resultados e desempenho dos times.
 
@@ -7,7 +7,6 @@ Este projeto é um dashboard interativo para visualizar estatísticas de partida
 Antes de começar, verifique se você tem os seguintes itens instalados:
 
 - [Python 3.7 ou superior](https://www.python.org/downloads/)
-- [Pip](https://pip.pypa.io/en/stable/)
 
 ## Instalação
 
@@ -37,3 +36,9 @@ Antes de começar, verifique se você tem os seguintes itens instalados:
 
     streamlit run app.py
 
+## Tecnologias utilizadas
+
+- Python
+- SQLite3
+- API-Football (https://www.api-football.com/)
+- Streamlit

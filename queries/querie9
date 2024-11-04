@@ -1,0 +1,23 @@
+-- Obter os resultados das partidas em uma tabela formatada, incluindo o resultado final (Vitória em Casa, Vitória Fora, Empate)
+
+SELECT 
+
+    home_team_id, 
+
+    away_team_id, 
+
+    home_score, 
+
+    away_score, 
+
+    CASE 
+
+        WHEN home_score &gt; away_score THEN 'Vitória em Casa'
+
+        WHEN home_score &lt; away_score THEN 'Vitória Fora'
+
+        ELSE 'Empate'
+
+    END AS resultado
+
+FROM fixtures;
