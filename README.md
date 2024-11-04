@@ -42,3 +42,7 @@ Antes de começar, verifique se você tem os seguintes itens instalados:
 - SQLite3
 - API-Football (https://www.api-football.com/)
 - Streamlit
+
+## Observações:
+- Caso queira executar as consultas SQL com mais facilidade, ao executar "python partidas.py" o banco de dados é criado.
+Portanto, caso queira usar uma interface como o DB Browser, é só importar o banco de dados e depois no campo Execute SQL, importe quaisquer arquivos da pasta queries do projeto
