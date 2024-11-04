@@ -1,2 +1,35 @@
-# premier-league-API
- 
+# Dashboard de Estatísticas de Futebol
+
+Este projeto é um dashboard interativo para visualizar estatísticas de partidas da Premier League usando Streamlit. A aplicação permite que os usuários visualizem diferentes gráficos relacionados a partidas, resultados e desempenho dos times.
+
+## Requisitos
+
+Antes de começar, verifique se você tem os seguintes itens instalados:
+
+- [Python 3.7 ou superior](https://www.python.org/downloads/)
+- [Pip](https://pip.pypa.io/en/stable/)
+
+## Instalação
+
+1. Clone o repositório:
+
+    ```bash
+    git clone https://github.com/seu_usuario/seu_repositorio.git
+    cd seu_repositorio
+
+2. Crie e ative um ambiente virtual:
+
+    python -m venv venv
+    # No Windows:
+    venv\Scripts\activate
+    # No macOS/Linux:
+    source venv/bin/activate
+
+3. Instale as dependências necessárias:
+    
+    pip install -r requirements.txt
+
+4. Execute o arquivo partidas.py para criar o banco de dados
+
+    python partidas.py
+
